@@ -6,9 +6,7 @@ const userSchema = mongoose.Schema({
         maxlength: 50
     },
     email:{
-        tyep: String,
-        trim: true,
-        unique: 1
+        tyep: String
     },
     password:{
         type: String,
